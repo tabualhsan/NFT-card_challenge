@@ -1,6 +1,5 @@
 *{
-    margin:0;
-    padding: 0;
+    
     box-sizing: border-box;
     
 }
@@ -107,9 +106,12 @@ svg{
     margin-bottom: 8px;
     padding: 1rem;
     font-size: 14px;
+    padding-left: 3rem;
+  
 }
 .price, .clock{
     display: flex;
+    position: relative;
 }
 .price{
     font-weight: 600;
@@ -120,20 +122,22 @@ svg{
 .clock{
     font-weight: 600;
     letter-spacing: 1px;
-    margin-right: 51px;
+    margin-right: 66px;
     padding: 2px;
 }
 
 
-
 hr{
-    width: 100%;
-    height: 1px;
-    justify-content: center;
-    background-color: #8BACD9;
-    border-style: none;
-    margin-bottom: 16px;
-    
+    width: 80%;
+    border: 1px solid #7088aa;
+}
+.sentence{
+font-size: 16px;
+position: relative;
+color: hsl(215, 51%, 70%);
+margin-left: 5%;
+margin-right: 5%;
+font-weight: 500;
 }
 
 .avatar{
